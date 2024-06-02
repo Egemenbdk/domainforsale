@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.notification {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.notification h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.notification p {
+    font-size: 18px;
+}
+
+.notification a {
+    color: #007BFF;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+.notification a:hover {
+    opacity: 1;
+}
